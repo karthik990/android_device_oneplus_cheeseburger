@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cheeseburger.mk
+    $(LOCAL_DIR)/rr_cheeseburger.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_cheeseburger-user \
-    lineage_cheeseburger-userdebug \
-    lineage_cheeseburger-eng
+    rr_cheeseburger-user \
+    rr_cheeseburger-userdebug \
+    rr_cheeseburger-eng
