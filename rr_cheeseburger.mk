@@ -25,7 +25,7 @@ $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Inherit PixelGApps
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -52,6 +52,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus5-user 8.1.0 OPM1.171019.011 1 release-keys"
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RD1A.201105.003.C1/6886399:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys"
 
 TARGET_VENDOR := oneplus
